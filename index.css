@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.wrapperOfSection {
+    padding: 20px 20px 20px 20px
+}
+
+.containerOfCv {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin-left: 10px;
+    top: 80px;
+    left: 23%;
+}
+
+.backGround {
+    background-color: #312f2f;
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.belowBackGround {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.firstPart {
+    max-width: 200px;
+    background-color: #ffc400;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+
+.photo {
+    width: 160px;
+    height: 240px;
+    background-image: url(foto/foto.jpg);
+    background-size: contain;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 2px;
+
+}
+
+h2 {
+    font-size: 13px;
+    margin-top: 15px;
+    background-color: #fff306;
+    border-radius: 2px;
+    padding-left: 3px;
+
+}
+
+.h2FirstPart {
+    max-width: 170px;
+    margin: 0 auto;
+}
+
+.shortInformation {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.h2Skills {
+    max-width: 170px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+p {
+    text-indent: 5px;
+
+}
+
+.listOfSkills {
+    margin-top: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-bottom: 122px;
+}
+
+.skills li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.skills li:nth-last-child(-n+2) {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transform: translateX(-10px);
+}
+
+.secondPart {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 350px;
+}
+
+
+tr {
+    font-size: 13px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+}
+
+tr span {
+    font-weight: 700;
+}
+
+.objectiveText {
+    color: white;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.education {
+    margin-top: 35px;
+}
+
+.educationTeachMeSkills {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.educationTeachMeSkills span {
+    font-weight: 700;
+}
+
+.educationBNTU {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.educationBNTU span {
+    font-weight: 700;
+}
+
+.periodOfWork {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.responsibility {
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.responsibilityOne {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.responsibilityTwo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.responsibilitythree {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.responsibilityFour {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.responsibilityFive {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
